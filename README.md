@@ -1,6 +1,6 @@
 # wsh_ui
 
-> A Vue.js project
+> A Vue.js UI project
 
 ## Build Setup
 
