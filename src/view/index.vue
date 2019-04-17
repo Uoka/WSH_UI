@@ -1,6 +1,6 @@
 <template>
-  <div style="background-color: aqua">
-    <wsh-nav-bar>
+  <div style="background-color: aqua; height: 100%">
+    <ws-nav-bar>
       <div slot="navFirst">first</div>
       <div slot="navFirst">first</div>
       <div slot="navFirst">first</div>
@@ -12,7 +12,7 @@
       <div >nav2</div>
       <div >nav2</div>
       <div slot="navLast">Last</div>
-    </wsh-nav-bar>
+    </ws-nav-bar>
   </div>
 </template>
 
