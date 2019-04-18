@@ -1,25 +1,27 @@
-import wshCarousel from '@/components/WS_UI/carousel/index'
-import wshCarouselItem from '@/components/WS_UI/carouselItem/index'
-import wshCol from '@/components/WS_UI/col/index'
-import wshInput from '@/components/WS_UI/input/index'
-import wshNavBar from '@/components/WS_UI/navBar/index'
-import wshNavItem from '@/components/WS_UI/navItem/index'
-import wshNavGroup from '@/components/WS_UI/navGroup/index'
-import whsPlayer from '@/components/WS_UI/player/index'
-import wshPopover from '@/components/WS_UI/popover/index'
-import wshRow from '@/components/WS_UI/row/index'
+import wsCarousel from './carousel/index'
+import wsCarouselItem from './carouselItem/index'
+import wsCdTop from './cdTop/index'
+import wsCol from './col/index'
+import wsInput from './input/index'
+import wsNavBar from './navBar/index'
+import wsNavItem from './navItem/index'
+import wsNavGroup from './navGroup/index'
+import wsPlayer from './player/index'
+import wsPopover from './popover/index'
+import wsRow from './row/index'
 
 const components = [
-  wshCarousel,
-  wshCarouselItem,
-  wshCol,
-  wshInput,
-  wshNavBar,
-  wshNavGroup,
-  wshNavItem,
-  whsPlayer,
-  wshPopover,
-  wshRow
+  wsCarousel,
+  wsCarouselItem,
+  wsCdTop,
+  wsCol,
+  wsInput,
+  wsNavBar,
+  wsNavItem,
+  wsNavGroup,
+  wsPlayer,
+  wsPopover,
+  wsRow
 ]
 
 const install = function (Vue) {
@@ -32,10 +34,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  install,
-  wshNavBar,
-  wshNavItem,
-  wshRow,
-  wshCol,
-  wshInput
+  install
 }
