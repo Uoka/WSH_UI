@@ -1,4 +1,4 @@
-# wsh_ui
+# ws_ui
 
 > A Vue.js UI project
 
